@@ -1531,6 +1531,7 @@ padding-right: 15px;
 
 .modal-state:checked + .modal .modal__inner {
   top: 0;
+  text-align:center;
 }
 
 .modal__inner {
@@ -1586,6 +1587,37 @@ padding-right: 15px;
 
 .modal__close:before {
   transform: rotate(-45deg);
+}
+.btn {
+	border: 1px solid;
+	padding: 10px 0px;
+	border-top-left-radius: 18px;
+	border-bottom-left-radius: 18px;
+	border-top-right-radius: 18px;
+	border-bottom-right-radius: 18px;
+	width: 10vw;
+	height: 9vh;
+	text-align: center;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.or-seperator {
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+}
+.or-seperator i {
+    padding: 0 10px;
+	text-transform: uppercase;
+    background: #fff;
+    position: relative;
+    top: -11px;
+    z-index: 1;
+	color:#222;
+	
 }
 /* media queries */
 @media screen and (max-width: 1500px) {
